@@ -1,0 +1,42 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1518804858955" stop="1518804873357">
+  <name>test_ui</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1518804858955" status="passed" stop="1518804868283">
+      <name>test_navigate_to_login_page</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="58747-MainThread"/>
+        <label name="host" value="timurs-MacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1518804868284" status="passed" stop="1518804871500">
+      <name>test_navigate_to_personal_page</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="58747-MainThread"/>
+        <label name="host" value="timurs-MacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1518804871500" status="passed" stop="1518804873357">
+      <name>test_private_banking_option</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="58747-MainThread"/>
+        <label name="host" value="timurs-MacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

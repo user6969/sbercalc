@@ -1,0 +1,60 @@
+{
+  "uid" : "484b5e8c9e6ba389",
+  "name" : "test_calc[RUB-CHF-666.6]",
+  "fullName" : "test_calc.test_calc[RUB-CHF-666.6]",
+  "historyId" : "a2a80595b4b76d96aa647493802c6d47",
+  "time" : {
+    "start" : 1518804856435,
+    "stop" : 1518804858954,
+    "duration" : 2519
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "timurs-MacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "58747-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "testClass",
+    "value" : "test_calc"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_calc[RUB-CHF-666.6]"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "484b5e8c9e6ba389.json",
+  "parameterValues" : [ ]
+}

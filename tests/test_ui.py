@@ -1,7 +1,6 @@
 import pytest
 from selenium import webdriver
 from utils.pom import *
-import pdb
 
 URL = 'http://www.sberbank.ru/ru/quotes/converter'
 
@@ -16,7 +15,6 @@ def browser():
 
 
 def test_navigate_to_login_page(browser):
-    browser.get(URL)
     browser.get(URL)
     calcpage = CalcPage(browser)
     calcpage.move_to_login_page()

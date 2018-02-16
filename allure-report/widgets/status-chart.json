@@ -1,0 +1,151 @@
+[ {
+  "uid" : "68fdc578fb1b7ce3",
+  "name" : "test_calc[RUB-USD-2]",
+  "time" : {
+    "start" : 1518804854204,
+    "stop" : 1518804856434,
+    "duration" : 2230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7149c49db60719ee",
+  "name" : "test_api[-840-2]",
+  "time" : {
+    "start" : 1518804833014,
+    "stop" : 1518804834781,
+    "duration" : 1767
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2bbd98cfdb53848",
+  "name" : "test_calc[USD-RUB-100]",
+  "time" : {
+    "start" : 1518804836747,
+    "stop" : 1518804844469,
+    "duration" : 7722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "758cdc3134c000be",
+  "name" : "test_api[840--100]",
+  "time" : {
+    "start" : 1518804819796,
+    "stop" : 1518804825248,
+    "duration" : 5452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5eb5370f93fc1ba8",
+  "name" : "test_calc[CHF-RUB-100.23]",
+  "time" : {
+    "start" : 1518804848176,
+    "stop" : 1518804851393,
+    "duration" : 3217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecce0519c2e901e8",
+  "name" : "test_api[978--7403.33]",
+  "time" : {
+    "start" : 1518804825251,
+    "stop" : 1518804828331,
+    "duration" : 3080
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcffbeeaf6c3314a",
+  "name" : "test_navigate_to_personal_page",
+  "time" : {
+    "start" : 1518804868284,
+    "stop" : 1518804871500,
+    "duration" : 3216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "484b5e8c9e6ba389",
+  "name" : "test_calc[RUB-CHF-666.6]",
+  "time" : {
+    "start" : 1518804856435,
+    "stop" : 1518804858954,
+    "duration" : 2519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29dafa8e4b2198fe",
+  "name" : "test_api[-756-666.6]",
+  "time" : {
+    "start" : 1518804834782,
+    "stop" : 1518804836746,
+    "duration" : 1964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f74bc23b3a380772",
+  "name" : "test_api[-978-4444.50]",
+  "time" : {
+    "start" : 1518804830812,
+    "stop" : 1518804833013,
+    "duration" : 2201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e75d28c96a2f5dd",
+  "name" : "test_private_banking_option",
+  "time" : {
+    "start" : 1518804871500,
+    "stop" : 1518804873357,
+    "duration" : 1857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58e587519e292158",
+  "name" : "test_calc[RUB-EUR-4444.50]",
+  "time" : {
+    "start" : 1518804851394,
+    "stop" : 1518804854203,
+    "duration" : 2809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef44813d6c46142c",
+  "name" : "test_navigate_to_login_page",
+  "time" : {
+    "start" : 1518804858955,
+    "stop" : 1518804868283,
+    "duration" : 9328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74689ec2ebabc380",
+  "name" : "test_api[756--100.23]",
+  "time" : {
+    "start" : 1518804828332,
+    "stop" : 1518804830811,
+    "duration" : 2479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8936166e960536ed",
+  "name" : "test_calc[EUR-RUB-7403.33]",
+  "time" : {
+    "start" : 1518804844472,
+    "stop" : 1518804848175,
+    "duration" : 3703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,78 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1518804836747" stop="1518804858954">
+  <name>test_calc</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1518804836747" status="passed" stop="1518804844469">
+      <name>test_calc[USD-RUB-100]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="58747-MainThread"/>
+        <label name="host" value="timurs-MacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1518804844472" status="passed" stop="1518804848175">
+      <name>test_calc[EUR-RUB-7403.33]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="58747-MainThread"/>
+        <label name="host" value="timurs-MacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1518804848176" status="passed" stop="1518804851393">
+      <name>test_calc[CHF-RUB-100.23]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="58747-MainThread"/>
+        <label name="host" value="timurs-MacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1518804851394" status="passed" stop="1518804854203">
+      <name>test_calc[RUB-EUR-4444.50]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="58747-MainThread"/>
+        <label name="host" value="timurs-MacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1518804854204" status="passed" stop="1518804856434">
+      <name>test_calc[RUB-USD-2]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="58747-MainThread"/>
+        <label name="host" value="timurs-MacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1518804856435" status="passed" stop="1518804858954">
+      <name>test_calc[RUB-CHF-666.6]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="58747-MainThread"/>
+        <label name="host" value="timurs-MacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

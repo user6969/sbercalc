@@ -1,0 +1,60 @@
+{
+  "uid" : "7e75d28c96a2f5dd",
+  "name" : "test_private_banking_option",
+  "fullName" : "test_ui.test_private_banking_option",
+  "historyId" : "8993eef3ec31c7d93fa54f82efbed061",
+  "time" : {
+    "start" : 1518804871500,
+    "stop" : 1518804873357,
+    "duration" : 1857
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "timurs-MacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "58747-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_ui"
+  }, {
+    "name" : "testClass",
+    "value" : "test_ui"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_private_banking_option"
+  }, {
+    "name" : "package",
+    "value" : "test_ui"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e75d28c96a2f5dd.json",
+  "parameterValues" : [ ]
+}

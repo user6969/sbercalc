@@ -1,0 +1,60 @@
+{
+  "uid" : "bcffbeeaf6c3314a",
+  "name" : "test_navigate_to_personal_page",
+  "fullName" : "test_ui.test_navigate_to_personal_page",
+  "historyId" : "a3218c68bdaa3b806e1d0a3ae2cf094d",
+  "time" : {
+    "start" : 1518804868284,
+    "stop" : 1518804871500,
+    "duration" : 3216
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "timurs-MacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "58747-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_ui"
+  }, {
+    "name" : "testClass",
+    "value" : "test_ui"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_navigate_to_personal_page"
+  }, {
+    "name" : "package",
+    "value" : "test_ui"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcffbeeaf6c3314a.json",
+  "parameterValues" : [ ]
+}
