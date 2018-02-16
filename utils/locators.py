@@ -8,7 +8,6 @@ class PageLocators(object):
     select_to_menu = 'converterFrom'
     convert_from_menu = 'em'
     convert_to_menu = 'em'
-    from_RUB = '//select[@name="convertFrom"]//*[contains(text(), "RUB")]'
     RUB = 'div.visible > span:nth-child(1)'
     USD = 'div.visible > span:nth-child(6)'
     EUR = 'div.visible > span:nth-child(3)'
