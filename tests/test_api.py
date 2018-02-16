@@ -46,8 +46,8 @@ def test_api(browser, convert_from, convert_to, amount):
     browser.get(URL)
     calcpage = CalcPage(browser)
     calcpage.select_amount(amount)
-    calcpage.select_convert_from(convert_from, True)
-    calcpage.select_convert_to(convert_to, True)
+    calcpage.select_convert_from(convert_from, api=True)
+    calcpage.select_convert_to(convert_to, api=True)
     url = 'http://www.sberbank.ru/portalserver/proxy/?' \
           'pipe=shortCachePipe&' \
           'url=http%3A%2F%2Flocalhost%2Frates-web%2FrateService%2Frate%2Fconversion%3F' \

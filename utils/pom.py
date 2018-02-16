@@ -17,3 +17,13 @@ class CalcPage(Utils):
 
     def get_exchange_rate(self):
         Utils.get_exchange_rate(self)
+
+    def move_to_login_page(self):
+        Utils.move_to_login_page(self)
+
+    def move_to_personal_page(self):
+        Utils.move_to_personal_page(self)
+
+    def check_private_banking_r_button(self):
+        Utils.check_private_banking_r_button(self)
+

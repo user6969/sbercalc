@@ -6,9 +6,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.action_chains import ActionChains as ac
 from decimal import *
+import pdb
 
 
-TIME_OUT = 10
+TIME_OUT = 20
 
 
 class Utils(object):
@@ -75,3 +76,28 @@ class Utils(object):
         result = self.wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, PageLocators.conversion_result)))
         precision = Decimal(10) ** -2
         return Decimal(result.text[0:-4].replace(',', '.').replace(' ', '')).quantize(precision)
+
+    def move_to_login_page(self):
+        login_link = self.wait.until(ec.presence_of_element_located((By.LINK_TEXT, PageLocators.login_link)))
+        login_link.click()
+
+    def login_page_loaded(self):
+        login_page = self.wait.until(ec.presence_of_element_located((By.ID, PageLocators.login_page)))
+        return login_page.is_displayed()
+
+    def move_to_personal_page(self):
+        login_link = self.wait.until(ec.presence_of_element_located((By.LINK_TEXT, PageLocators.personal_link)))
+        login_link.click()
+
+    def personal_page_loaded(self):
+        p_page = self.wait.until(ec.presence_of_element_located((By.CLASS_NAME, PageLocators.personal_page)))
+        return p_page.is_displayed()
+
+    def check_private_banking_r_button(self):
+        submit_button = self.wait.until(ec.presence_of_element_located((By.XPATH, PageLocators.submit)))
+        button = self.wait.until(ec.presence_of_all_elements_located((By.XPATH, PageLocators.private_banking_r_button)))
+        ac(self.driver).move_to_element(submit_button).move_to_element(button[1]).click(button[1]).perform()
+
+    def error_displayed(self):
+        error = self.wait.until(ec.presence_of_element_located((By.CLASS_NAME, PageLocators.error)))
+        return error.is_displayed()

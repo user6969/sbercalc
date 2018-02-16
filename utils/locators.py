@@ -17,4 +17,10 @@ class PageLocators(object):
     submit = '//*[contains(text(), "Показать")]'
     rate = 'span.rates-current__rate-value'
     conversion_result = 'span.rates-converter-result__total-to'
+    login_link = 'Вход'
+    login_page = 'inputLogin'
+    personal_link = 'Частным клиентам'
+    personal_page = 'chat-icon_text'
+    private_banking_r_button = '//*[contains(text(), "Private Banking")]'
+    error = 'rates-aside__error'
 
