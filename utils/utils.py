@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.action_chains import ActionChains as ac
 from decimal import *
-import pdb
+
 
 
 TIME_OUT = 20
