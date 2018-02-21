@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 
@@ -23,4 +22,3 @@ class PageLocators(object):
     personal_page = 'chat-icon_text'
     private_banking_r_button = '//*[contains(text(), "Private Banking")]'
     error = 'rates-aside__error'
-

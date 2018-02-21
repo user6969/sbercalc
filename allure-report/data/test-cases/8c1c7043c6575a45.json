@@ -1,12 +1,12 @@
 {
-  "uid" : "7e75d28c96a2f5dd",
-  "name" : "test_private_banking_option",
-  "fullName" : "test_ui.test_private_banking_option",
-  "historyId" : "8993eef3ec31c7d93fa54f82efbed061",
+  "uid" : "8c1c7043c6575a45",
+  "name" : "test_api[-978-4444.50]",
+  "fullName" : "test_api.test_api[-978-4444.50]",
+  "historyId" : "4f5a2aa6e7ec6e14244563d77f2ec700",
   "time" : {
-    "start" : 1518804871500,
-    "stop" : 1518804873357,
-    "duration" : 1857
+    "start" : 1519206481170,
+    "stop" : 1519206483463,
+    "duration" : 2293
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -28,19 +28,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "58747-MainThread"
+    "value" : "71760-MainThread"
   }, {
     "name" : "suite",
-    "value" : "test_ui"
+    "value" : "test_api"
   }, {
     "name" : "testClass",
-    "value" : "test_ui"
+    "value" : "test_api"
   }, {
     "name" : "testMethod",
-    "value" : "test_private_banking_option"
+    "value" : "test_api[-978-4444.50]"
   }, {
     "name" : "package",
-    "value" : "test_ui"
+    "value" : "test_api"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7e75d28c96a2f5dd.json",
+  "source" : "8c1c7043c6575a45.json",
   "parameterValues" : [ ]
 }

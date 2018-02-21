@@ -1,12 +1,12 @@
 {
-  "uid" : "5eb5370f93fc1ba8",
-  "name" : "test_calc[CHF-RUB-100.23]",
-  "fullName" : "test_calc.test_calc[CHF-RUB-100.23]",
-  "historyId" : "ae73a6c1e23d67aec6e4befb56a532f2",
+  "uid" : "73024782c7f7d0c7",
+  "name" : "test_private_banking_option",
+  "fullName" : "test_ui.test_private_banking_option",
+  "historyId" : "8993eef3ec31c7d93fa54f82efbed061",
   "time" : {
-    "start" : 1518804848176,
-    "stop" : 1518804851393,
-    "duration" : 3217
+    "start" : 1519206530985,
+    "stop" : 1519206532970,
+    "duration" : 1985
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -28,19 +28,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "58747-MainThread"
+    "value" : "71760-MainThread"
   }, {
     "name" : "suite",
-    "value" : "test_calc"
+    "value" : "test_ui"
   }, {
     "name" : "testClass",
-    "value" : "test_calc"
+    "value" : "test_ui"
   }, {
     "name" : "testMethod",
-    "value" : "test_calc[CHF-RUB-100.23]"
+    "value" : "test_private_banking_option"
   }, {
     "name" : "package",
-    "value" : "test_calc"
+    "value" : "test_ui"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5eb5370f93fc1ba8.json",
+  "source" : "73024782c7f7d0c7.json",
   "parameterValues" : [ ]
 }
