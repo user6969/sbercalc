@@ -1,12 +1,12 @@
 {
-  "uid" : "58e587519e292158",
-  "name" : "test_calc[RUB-EUR-4444.50]",
-  "fullName" : "test_calc.test_calc[RUB-EUR-4444.50]",
-  "historyId" : "e56298012ddd4f5b08c91ceb01904e25",
+  "uid" : "ff3454d57cf59d21",
+  "name" : "test_navigate_to_personal_page",
+  "fullName" : "test_ui.test_navigate_to_personal_page",
+  "historyId" : "a3218c68bdaa3b806e1d0a3ae2cf094d",
   "time" : {
-    "start" : 1518804851394,
-    "stop" : 1518804854203,
-    "duration" : 2809
+    "start" : 1519206525896,
+    "stop" : 1519206530983,
+    "duration" : 5087
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -28,19 +28,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "58747-MainThread"
+    "value" : "71760-MainThread"
   }, {
     "name" : "suite",
-    "value" : "test_calc"
+    "value" : "test_ui"
   }, {
     "name" : "testClass",
-    "value" : "test_calc"
+    "value" : "test_ui"
   }, {
     "name" : "testMethod",
-    "value" : "test_calc[RUB-EUR-4444.50]"
+    "value" : "test_navigate_to_personal_page"
   }, {
     "name" : "package",
-    "value" : "test_calc"
+    "value" : "test_ui"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "58e587519e292158.json",
+  "source" : "ff3454d57cf59d21.json",
   "parameterValues" : [ ]
 }

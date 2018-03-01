@@ -1,73 +1,73 @@
-<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1518804819796" stop="1518804836746">
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1519206467901" stop="1519206487207">
   <name>test_api</name>
   <labels/>
   <test-cases>
-    <test-case start="1518804819796" status="passed" stop="1518804825248">
+    <test-case start="1519206467901" status="passed" stop="1519206475764">
       <name>test_api[840--100]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="58747-MainThread"/>
+        <label name="thread" value="71760-MainThread"/>
         <label name="host" value="timurs-MacBook-Pro.local"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython2"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1518804825251" status="passed" stop="1518804828331">
+    <test-case start="1519206475766" status="passed" stop="1519206478679">
       <name>test_api[978--7403.33]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="58747-MainThread"/>
+        <label name="thread" value="71760-MainThread"/>
         <label name="host" value="timurs-MacBook-Pro.local"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython2"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1518804828332" status="passed" stop="1518804830811">
+    <test-case start="1519206478680" status="passed" stop="1519206481169">
       <name>test_api[756--100.23]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="58747-MainThread"/>
+        <label name="thread" value="71760-MainThread"/>
         <label name="host" value="timurs-MacBook-Pro.local"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython2"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1518804830812" status="passed" stop="1518804833013">
+    <test-case start="1519206481170" status="passed" stop="1519206483463">
       <name>test_api[-978-4444.50]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="58747-MainThread"/>
+        <label name="thread" value="71760-MainThread"/>
         <label name="host" value="timurs-MacBook-Pro.local"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython2"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1518804833014" status="passed" stop="1518804834781">
+    <test-case start="1519206483465" status="passed" stop="1519206485204">
       <name>test_api[-840-2]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="58747-MainThread"/>
+        <label name="thread" value="71760-MainThread"/>
         <label name="host" value="timurs-MacBook-Pro.local"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython2"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1518804834782" status="passed" stop="1518804836746">
+    <test-case start="1519206485205" status="passed" stop="1519206487207">
       <name>test_api[-756-666.6]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="58747-MainThread"/>
+        <label name="thread" value="71760-MainThread"/>
         <label name="host" value="timurs-MacBook-Pro.local"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython2"/>

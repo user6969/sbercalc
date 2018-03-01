@@ -1,12 +1,12 @@
 {
-  "uid" : "bcffbeeaf6c3314a",
-  "name" : "test_navigate_to_personal_page",
-  "fullName" : "test_ui.test_navigate_to_personal_page",
-  "historyId" : "a3218c68bdaa3b806e1d0a3ae2cf094d",
+  "uid" : "ff6a73ab532f68be",
+  "name" : "test_api[-756-666.6]",
+  "fullName" : "test_api.test_api[-756-666.6]",
+  "historyId" : "184cf3d3ec31ea4c9da3a7b83b4c554",
   "time" : {
-    "start" : 1518804868284,
-    "stop" : 1518804871500,
-    "duration" : 3216
+    "start" : 1519206485205,
+    "stop" : 1519206487207,
+    "duration" : 2002
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -28,19 +28,19 @@
     "value" : "normal"
   }, {
     "name" : "thread",
-    "value" : "58747-MainThread"
+    "value" : "71760-MainThread"
   }, {
     "name" : "suite",
-    "value" : "test_ui"
+    "value" : "test_api"
   }, {
     "name" : "testClass",
-    "value" : "test_ui"
+    "value" : "test_api"
   }, {
     "name" : "testMethod",
-    "value" : "test_navigate_to_personal_page"
+    "value" : "test_api[-756-666.6]"
   }, {
     "name" : "package",
-    "value" : "test_ui"
+    "value" : "test_api"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bcffbeeaf6c3314a.json",
+  "source" : "ff6a73ab532f68be.json",
   "parameterValues" : [ ]
 }

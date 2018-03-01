@@ -1,10 +1,9 @@
 import requests
 import json
 import csv
-import pytest
-from selenium import webdriver
 from decimal import *
-from utils.pom import *
+from utils.base_page import ConverterSection
+from utils.conftest import *
 
 URL = 'http://www.sberbank.ru/ru/quotes/converter'
 TEST_DATA = 'test_artifacts/currency.csv'
@@ -32,25 +31,17 @@ def api_parameters():
     return params
 
 
-@pytest.yield_fixture(scope='session')
-def browser():
-    options = webdriver.ChromeOptions()
-    options.add_argument("--kiosk")
-    driver = webdriver.Chrome(chrome_options=options)
-    yield driver
-    driver.quit()
-
-
 @pytest.mark.parametrize('convert_from, convert_to, amount', api_parameters())
 def test_api(browser, convert_from, convert_to, amount):
     browser.get(URL)
-    calcpage = CalcPage(browser)
-    calcpage.select_amount(amount)
-    calcpage.select_convert_from(convert_from, api=True)
-    calcpage.select_convert_to(convert_to, api=True)
+    converter = ConverterSection(browser)
+    converter.select_amount(amount)
+    converter.select_convert_from(convert_from, api=True)
+    converter.select_convert_to(convert_to, api=True)
     url = 'http://www.sberbank.ru/portalserver/proxy/?' \
           'pipe=shortCachePipe&' \
-          'url=http%3A%2F%2Flocalhost%2Frates-web%2FrateService%2Frate%2Fconversion%3F' \
+          'url=http%3A%2F%2Flocalhost%2Frates-web%2F' \
+          'rateService%2Frate%2Fconversion%3F' \
           'regionId%3D77%26' \
           'sourceCode%3Dcard%26' \
           'destinationCode%3Daccount%26' \
@@ -62,9 +53,7 @@ def test_api(browser, convert_from, convert_to, amount):
     r = requests.get(url)
     precision = Decimal(10) ** -2
     api_result = Decimal(json.loads(r.content)['amount']).quantize(precision)
-    expected_result = (Utils(browser).get_exchange_rate()*Decimal(amount)).quantize(precision) if convert_to == '' \
-        else (Decimal(amount)/Utils(browser).get_revert_rate()).quantize(precision)
+    expected_result = (converter.get_exchange_rate()*Decimal(amount)).quantize(precision) \
+        if convert_to == '' \
+        else (Decimal(amount)/converter.get_revert_rate()).quantize(precision)
     assert api_result == expected_result
-
-
-
